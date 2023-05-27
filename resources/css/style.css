@@ -199,6 +199,8 @@ section {overflow: hidden;}
 
 
 @media(max-width:767px){
+  #header{height: 70px;}
+  #header.header-scrolled{height: 70px;}
   .hero_slider .swiper-slide{height: 500px;}
   .hero_slider .swiper-button-next, .hero_slider .swiper-button-prev{display: none;}
   .section-hero{padding: 120px 0 40px 0;}
@@ -214,8 +216,13 @@ section {overflow: hidden;}
   .services figure .box{width: 100%;padding: 20px;}
   .social .card {margin: 0;border-right: 0;border-bottom: 1px solid #000;margin: 0 25px;padding: 25px 0;}
   #footer .footer-top .footer-links ul{margin-bottom: 20px;}
-
-
+  .header-top-bar {
+    display: none;
+}
+  .team_leader figure{flex-wrap: wrap;}
+  .team_leader figure .img_wrap{width: 100%;margin-right: 0;margin-bottom: 20px;}
+  .team_leader figure .img_wrap img{width: 100%;}
+  .team_leader figure .box{width: 100%;}
   
  
   .services .box{padding: 20px 30px;min-height: inherit;}
