@@ -31,11 +31,11 @@ header .container{display:flex;justify-content:space-between;align-items:center}
 
 .mainCarousel .slide_content{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:50%;text-align:center}
 .mainCarousel .slide_content .slider-title{font-size:30px;line-height:36px;text-transform:uppercase;color:#fff;display:block;text-shadow:5px 5px 10px #000}
-.mainCarousel .swiper-slide-active .slide_content .slider-title{animation:slideInRight 1.5s}
+.mainCarousel .swiper-slide-active .slide_content .slider-title{animation:slideInRight 2.5s}
 .mainCarousel .slide_content .slider-sub-title{font-size:80px;line-height:86px;font-family:'Oswald', sans-serif,cursive;font-weight:400;color:#fff;text-transform:capitalize;display:block;text-shadow:5px 5px 10px #000}
-.mainCarousel .swiper-slide-active .slider-sub-title{animation:slideInRight 1.5s}
+.mainCarousel .swiper-slide-active .slider-sub-title{animation:slideInRight 2.5s}
 .mainCarousel .slide_content .slideBTN{border-radius:50px;text-transform:uppercase;font-weight:600;font-size:22px;line-height:30px;color:#000;padding:5px 15px;background-color:#ffdc60;display:inline-block;margin-top:40px}
-.mainCarousel .swiper-slide-active .slide_content .slideBTN{animation:slideInUp 2s}
+.mainCarousel .swiper-slide-active .slide_content .slideBTN{animation:slideInUp 2.5s}
 .mainCarousel .swiper-slide{height:100vh;position:relative;overflow:hidden}
 .mainCarousel .swiper-pagination .swiper-pagination-bullet{background:0 0;border:1px solid #fff;opacity:1;width:12px;height:12px;border-radius: 0;}
 .mainCarousel .swiper-pagination .swiper-pagination-bullet-active{background:#fff}
@@ -417,7 +417,11 @@ header .container{display:flex;justify-content:space-between;align-items:center}
     line-height: 30px;
     margin-bottom: 6px;
 }
-
+.photosDvs{display: flex; flex-wrap: wrap; justify-content: space-between;}
+.photosDvs figure{background: #2969F2; margin-bottom: 20px; padding: 10px; border-radius: 10px; }
+.photosDvs figure .img_wrap{overflow: hidden;}
+.photosDvs figure .img_wrap img{border-radius: 10px; display: block;-webkit-transition: all .5s linear;transition: all .5s linear;-webkit-transform: scale3d(1,1,1);transform: scale3d(1,1,1); height: 100%; width: 100%;}
+.photosDvs figure .img_wrap:hover img{-webkit-transform: scale3d(1.1,1.1,1);transform: scale3d(1.1,1.1,1);}
 @media(max-width:767px){
 .flex{flex-wrap:wrap}
 .container{width:100%;padding:0 10px;box-sizing:border-box}
