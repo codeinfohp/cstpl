@@ -392,7 +392,7 @@ header .container{display:flex;justify-content:space-between;align-items:center}
     width: 200px;
 }
 .common_teams figure .image_wrap img {
-    border-radius: 50%;
+    border-radius: 20px;
     height: 200px;
     width: 200px;
     border: 1px solid #000;
