@@ -361,7 +361,11 @@ header .container{display:flex;justify-content:space-between;align-items:center}
     line-height: 24px;
 } 
 
-.leaders_sec{display: flex;flex-wrap: wrap;margin-bottom: 40px; }
+.leaders_sec{display: flex;flex-wrap: wrap;margin-bottom: 40px;padding: 40px 60px; }
+.leaders_sec .sub-heading{position: relative;}
+.leaders_sec .sub-heading:after{}
+.leaders_sec .sub-heading h2{font-size: 30px;font-weight: 500;}
+.leaders_sec .sub-heading h4{font-size: 16px;font-weight: 600;}
 .leaders_sec .leader_img{width: 400px;margin-right: 30px;background: url(../images/leader_bg.png);
     background-position: left top;
     background-size: 50%;
