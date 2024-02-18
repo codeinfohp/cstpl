@@ -55,7 +55,7 @@ header .container{display:flex;justify-content:space-between;align-items:center}
 .about_award .lft-col p{color: #000;text-align: justify;font-size: 16px;line-height: 30px;margin-bottom: 10px;}
 .about_award .lft-col p a{color: #2969F2;}
 .about_award .lft-col .readmore {background: #2969F2;padding: 10px 20px;border-radius: 10px;color: #fff;font-size: 13px;font-weight: 400;text-transform: uppercase;display: inline-block;margin-bottom: 10px;}
-
+.about_award .heading .h2{font-size: 36px;}
 /* event starts here */
 .compWork .heading{color: #ffffff;}
 .compWork{background: #06103d url(../images/awards-header-swirl.svg);background-repeat: no-repeat; background-position: right center; background-size:contain; color: #fff;padding-bottom: 50px;padding-top: 50px;}
@@ -363,7 +363,6 @@ header .container{display:flex;justify-content:space-between;align-items:center}
 
 .leaders_sec{display: flex;flex-wrap: wrap;margin-bottom: 40px;padding: 40px 60px; }
 .leaders_sec .sub-heading{position: relative;}
-.leaders_sec .sub-heading:after{}
 .leaders_sec .sub-heading h2{font-size: 30px;font-weight: 500;}
 .leaders_sec .sub-heading h4{font-size: 16px;font-weight: 600;}
 .leaders_sec .leader_img{width: 400px;margin-right: 30px;background: url(../images/leader_bg.png);
@@ -420,6 +419,7 @@ header .container{display:flex;justify-content:space-between;align-items:center}
     font-size: 16px;
     line-height: 30px;
     margin-bottom: 6px;
+    text-align: justify;
 }
 .photosDvs{display: flex; flex-wrap: wrap; justify-content: space-between;}
 .photosDvs figure{background: #2969F2; margin-bottom: 20px; padding: 10px; border-radius: 10px; }
