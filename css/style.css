@@ -309,13 +309,13 @@ header .container{display:flex;justify-content:space-between;align-items:center}
 .categoryPage_Wrapper .slideBTN{border-radius:50px;text-transform:uppercase;font-weight:600;font-size:22px;line-height:30px;color:#000;padding:5px 15px;background-color:#ffdc60;display:inline-block;position:absolute;transform:translateX(-50%);left:50%;bottom:-20px}
 
 .about-us h6{text-transform: uppercase; font-size: 16px;font-weight: 600; }
-.about-us h4{text-transform: uppercase; font-size: 18px; font-weight: 600;margin-bottom: 10px;border-bottom: 1px dashed #000;    display: inline-block;}
+.about-us h4{text-transform: uppercase;font-size: 18px;font-weight: 700;margin-bottom: 18px;border-bottom: 1px dashed #000;display: inline-block;margin-top: 10px;}
 .about-us .about-img{display: flex; justify-content: center; align-items: center;}
 .about-us .about-img img{width: 100%; height: auto;}
 .about-us p{font-size: 18px; line-height: 30px; text-align: left; padding-bottom: 0;text-align: justify;}
 .about-us p:first-child{display: inline-flex;}
 .about-us p img{margin-right: 20px;}
-.about-us span{margin-bottom: 20px;display: block; font-style: italic;}
+.about-us span{margin-bottom: 14px;display: block;font-style: italic;font-weight: 500;}
 .about-us li{margin-bottom: 10px;}
 
 .contact .address_details{display: flex; flex-wrap: wrap; justify-content: space-between;margin: 40px 0;}
